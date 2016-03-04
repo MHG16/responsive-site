@@ -1,3 +1,7 @@
+body {
+  padding: 1em 1em 1em 1em;
+  font-family: Helvetica, sans-serif; }
+
 nav {
   height: 3em; }
   nav a {
@@ -9,18 +13,25 @@ nav {
   padding: 2em; }
   .treepicture h2 {
     color: white;
-    font-size: 2.5em; }
+    font-size: 2.5em;
+    text-align: center; }
 
 .plans h3 {
   color: white;
-  font-size: 1em; }
+  font-size: 1em;
+  text-align: center;
+  padding-top: 2em; }
 .plans p {
   color: white;
   font-size: 5em;
-  margin: 0 auto; }
+  text-align: center;
+  margin-top: 0em;
+  margin-bottom: 0em; }
 .plans .permonth {
   color: #A5C8A5;
-  font-size: 1em; }
+  font-size: 1em;
+  text-align: center;
+  padding-bottom: 2em; }
 
 .pricepersonal {
   background-color: #4F934E; }
@@ -35,7 +46,8 @@ footer {
   background-color: black; }
 
 footer p {
-  color: white; }
+  color: white;
+  text-align: center; }
 
 footer a {
   color: white; }

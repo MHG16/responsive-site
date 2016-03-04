@@ -1,3 +1,10 @@
+body {
+	padding: 1em 1em 1em 1em;
+	font-family: Helvetica, sans-serif;
+}
+
+
+
 nav {
 	height: 3em;
 	
@@ -15,6 +22,7 @@ nav {
 	h2 {
 		color: white;
 		font-size: 2.5em;
+		text-align: center;
 	}
 }
 
@@ -22,18 +30,24 @@ nav {
 		
 	h3 {
 		color: white;
-		font-size: 1em;	
+		font-size: 1em;
+		text-align: center;
+		padding-top: 2em;
 	}
 
 	p {
 		color: white;
 		font-size: 5em;
-		margin: 0 auto;
+		text-align: center;
+		margin-top: 0em;
+		margin-bottom: 0em;
 	}
 
 	.permonth {
 		color: #A5C8A5;
 		font-size: 1em;
+		text-align: center;
+		padding-bottom: 2em;
 	}
 }
 
@@ -63,6 +77,7 @@ footer {
 
 footer p {
 	color: white;
+	text-align: center;
 }
 
 footer a {
