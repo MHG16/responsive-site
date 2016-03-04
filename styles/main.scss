@@ -1,17 +1,60 @@
 nav {
-	height: 3em
+	height: 3em;
+	
+	a {
+	color:#697075;
+	text-decoration: none;
+	}
+}
+
+
+.treepicture {
+	background-image: url("../images/Tree_Background.jpg");
+	padding: 2em; 
+
+	h2 {
+		color: white;
+		font-size: 2.5em;
+	}
+}
+
+.plans {
+		
+	h3 {
+		color: white;
+		font-size: 1em;	
+	}
+
+	p {
+		color: white;
+		font-size: 5em;
+		margin: 0 auto;
+	}
+
+	.permonth {
+		color: #A5C8A5;
+		font-size: 1em;
+	}
 }
 
 
 
-img {
-	height :11.75em;
+.pricepersonal {
+	background-color: #4F934E;
+	
+	
+
 }
 
+.pricesmall {
+	background-color: #2A4787;
+	
+}
 
-
-
-
+.priceenterprise {
+	background-color: #111111;
+	
+}
 
 
 footer {
