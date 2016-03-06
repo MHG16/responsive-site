@@ -15,52 +15,53 @@ nav {
   .treepicture h2 {
     color: white;
     font-size: 2.5em;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 0.5em; }
+    .treepicture h2 .try {
+      margin-top: 0.5em; }
 
-.plans {
-  /*.permonth {
-  	color: #A5C8A5;
-  	font-size: 1em;
-  	text-align: center;
-  	padding-bottom: 2em;
-  }*/ }
-  .plans h3 {
-    color: white;
-    font-size: 1em;
-    text-align: center;
-    padding-top: 2em; }
-  .plans p {
-    color: white;
-    font-size: 5em;
-    text-align: center;
-    margin-top: 0em;
-    margin-bottom: 0em; }
-  .plans .permonth {
-    padding-top: 0;
-    padding-bottom: 2em;
-    margin-bottom: 0em; }
-  .plans .feature {
-    color: #5A676D;
-    background-color: #F7F7F7;
-    font-size: 1em;
-    border-right: 1px solid #EAEAEA;
-    border-bottom: 1px solid #EAEAEA;
-    border-left: 1px solid #EAEAEA;
-    margin: 0 auto;
-    padding: 1em 0em 1em 0em; }
-  .plans .choose {
-    border-right: 1px solid #EAEAEA;
-    border-bottom: 1px solid #EAEAEA;
-    border-left: 1px solid #EAEAEA;
-    margin: 0 auto;
-    padding: 1em 0em 1em 0em; }
-  .plans .button {
-    color: #343434;
-    background-color: #FFFFFF;
-    font-size: 1em;
-    border-radius: 05em;
-    border-style: 1px solid #DDDDDD;
-    margin: 0 auto; }
+.banner {
+  margin-bottom: 2em; }
+
+.plans h3 {
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  padding-top: 2em; }
+.plans p {
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  margin-top: 0em;
+  margin-bottom: 0em; }
+.plans .permonth {
+  padding-top: 0;
+  padding-bottom: 2em;
+  margin-bottom: 0em; }
+.plans .feature {
+  color: #5A676D;
+  background-color: #F7F7F7;
+  font-size: 1em;
+  border-right: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+  border-left: 1px solid #EAEAEA;
+  margin: 0 auto;
+  padding: 1em 0em 1em 0em; }
+.plans .choose {
+  color: #343434;
+  border-right: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+  border-left: 1px solid #EAEAEA;
+  margin: 0 auto;
+  margin-bottom: 1.5em; }
+.plans .choose p {
+  color: #343434;
+  background-color: #FFFFFF;
+  font-size: 1em;
+  border-style: 1px solid #EAEAEA;
+  border-radius: 0.5em;
+  margin: 0 auto;
+  padding: 1em 0em 1em 0em; }
 
 .pricepersonal {
   background-color: #4F934E; }
@@ -79,7 +80,7 @@ h1 {
   text-align: center; }
   .information
   h1 p {
-    font-color: #526167; }
+    color: #526167; }
 
 footer {
   background-color: black; }
