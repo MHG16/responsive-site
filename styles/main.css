@@ -6,7 +6,8 @@ nav {
   height: 3em; }
   nav a {
     color: #697075;
-    text-decoration: none; }
+    text-decoration: none;
+    margin: 1em 1em 1em 1em; }
 
 .treepicture {
   background-image: url("../images/Tree_Background.jpg");
@@ -16,22 +17,50 @@ nav {
     font-size: 2.5em;
     text-align: center; }
 
-.plans h3 {
-  color: white;
-  font-size: 1em;
-  text-align: center;
-  padding-top: 2em; }
-.plans p {
-  color: white;
-  font-size: 5em;
-  text-align: center;
-  margin-top: 0em;
-  margin-bottom: 0em; }
-.plans .permonth {
-  color: #A5C8A5;
-  font-size: 1em;
-  text-align: center;
-  padding-bottom: 2em; }
+.plans {
+  /*.permonth {
+  	color: #A5C8A5;
+  	font-size: 1em;
+  	text-align: center;
+  	padding-bottom: 2em;
+  }*/ }
+  .plans h3 {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 2em; }
+  .plans p {
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 0em;
+    margin-bottom: 0em; }
+  .plans .permonth {
+    padding-top: 0;
+    padding-bottom: 2em;
+    margin-bottom: 0em; }
+  .plans .feature {
+    color: #5A676D;
+    background-color: #F7F7F7;
+    font-size: 1em;
+    border-right: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    border-left: 1px solid #EAEAEA;
+    margin: 0 auto;
+    padding: 1em 0em 1em 0em; }
+  .plans .choose {
+    border-right: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    border-left: 1px solid #EAEAEA;
+    margin: 0 auto;
+    padding: 1em 0em 1em 0em; }
+  .plans .button {
+    color: #343434;
+    background-color: #FFFFFF;
+    font-size: 1em;
+    border-radius: 05em;
+    border-style: 1px solid #DDDDDD;
+    margin: 0 auto; }
 
 .pricepersonal {
   background-color: #4F934E; }
@@ -41,12 +70,22 @@ nav {
 
 .priceenterprise {
   background-color: #111111; }
+  .priceenterprise .permonth {
+    font-color: #7E7E7E; }
+
+.information
+h1 {
+  font-size: 1.5em;
+  text-align: center; }
+  .information
+  h1 p {
+    font-color: #526167; }
 
 footer {
   background-color: black; }
 
 footer p {
-  color: white;
+  color: #7D7D7D;
   text-align: center; }
 
 footer a {
