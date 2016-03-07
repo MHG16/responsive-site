@@ -7,12 +7,18 @@ body {
 
 nav {
 	height: 3em;
+	padding-top: 2em;
 	
 	a {
 	color:#697075;
 	text-decoration: none;
 	margin: 1em 1em 1em 1em;
 	}
+
+	.pricing {
+		color: #484848;
+	}
+
 }
 
 
@@ -80,9 +86,8 @@ nav {
 		border-left: 1px solid #EAEAEA;   
 		margin: 0 auto;
 		margin-bottom: 1.5em;
-	}
 
-	.choose p {
+	   p {
 		color: #343434;
 		background-color: #FFFFFF;
 		font-size: 1em;
@@ -90,19 +95,25 @@ nav {
 		border-radius: 0.5em; 
 		margin: 0 auto;
 		padding: 1em 0em 1em 0em;
+		}
+
 	}
-
 }
-
-
 
 .pricepersonal {
 	background-color: #4F934E;
-		
+	
+	.permonth {
+		color: #A6C8A6;
+	}
 }
 
 .pricesmall {
-	background-color: #2A4787 ;
+	background-color: #2A4787;
+
+	.permonth {
+		color: #93A1C2;
+	}
 	
 }
 
@@ -110,23 +121,29 @@ nav {
 	background-color: #111111;
 	
 	.permonth {
-		font-color: #7E7E7E;
+		color: #7E7E7E;
 	}
 }
 
-.information 
+.information {
+
+	margin-top: 4em;
+
+
 	h1 {
 		font-size: 1.5em;
 		text-align: center;
+		margin-top: 1em;  
+	}
 
 	p {
 		color: #526167;
 	}
-
+	
 }
 
-
 footer {
+	margin-top: 1em; 
 	background-color: black;
 }	
 
@@ -203,9 +220,11 @@ footer a {
 }
 
 //Fourth breakpoint 
-/*@media(min-width: 979px) {
-
-}*/
-
-
+@media(min-width: 979px) {
+	body {
+	max-width: 980px;  
+	padding: 1em 1em 1em 1em;  
+	margin: 0 auto;      
+	}
+}
 

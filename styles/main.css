@@ -3,11 +3,14 @@ body {
   font-family: Helvetica, sans-serif; }
 
 nav {
-  height: 3em; }
+  height: 3em;
+  padding-top: 2em; }
   nav a {
     color: #697075;
     text-decoration: none;
     margin: 1em 1em 1em 1em; }
+  nav .pricing {
+    color: #484848; }
 
 .treepicture {
   background-image: url("../images/background.jpg");
@@ -54,35 +57,41 @@ nav {
   border-left: 1px solid #EAEAEA;
   margin: 0 auto;
   margin-bottom: 1.5em; }
-.plans .choose p {
-  color: #343434;
-  background-color: #FFFFFF;
-  font-size: 1em;
-  border-style: 1px solid #EAEAEA;
-  border-radius: 0.5em;
-  margin: 0 auto;
-  padding: 1em 0em 1em 0em; }
+  .plans .choose p {
+    color: #343434;
+    background-color: #FFFFFF;
+    font-size: 1em;
+    border-style: 1px solid #EAEAEA;
+    border-radius: 0.5em;
+    margin: 0 auto;
+    padding: 1em 0em 1em 0em; }
 
 .pricepersonal {
   background-color: #4F934E; }
+  .pricepersonal .permonth {
+    color: #A6C8A6; }
 
 .pricesmall {
   background-color: #2A4787; }
+  .pricesmall .permonth {
+    color: #93A1C2; }
 
 .priceenterprise {
   background-color: #111111; }
   .priceenterprise .permonth {
-    font-color: #7E7E7E; }
+    color: #7E7E7E; }
 
-.information
-h1 {
-  font-size: 1.5em;
-  text-align: center; }
-  .information
-  h1 p {
+.information {
+  margin-top: 4em; }
+  .information h1 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1em; }
+  .information p {
     color: #526167; }
 
 footer {
+  margin-top: 1em;
   background-color: black; }
 
 footer p {
@@ -135,8 +144,10 @@ footer a {
     clear: left;
     float: left;
     width: 100%; } }
-/*@media(min-width: 979px) {
-
-}*/
+@media (min-width: 979px) {
+  body {
+    max-width: 980px;
+    padding: 1em 1em 1em 1em;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=main.css.map */
