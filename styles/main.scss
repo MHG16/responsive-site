@@ -17,7 +17,7 @@ nav {
 
 
 .treepicture {
-	background-image: url("../images/Tree_Background.jpg");
+	background-image: url("../images/background.jpg");
 	padding: 2em; 
 
 	h2 {
@@ -139,6 +139,7 @@ footer a {
 	color: white
 }
 
+//Second breakpoint
 @media(min-width: 479px ) {
 	.treepicture {
 		padding: 4em;  
@@ -146,8 +147,8 @@ footer a {
 
 }
 
-
-/*@media(min-width: 767px) {
+//Third breakpoint
+@media(min-width: 767px) {
 
 	.plans {
 		margin: 0 auto;  
@@ -160,6 +161,8 @@ footer a {
 
 	.smallbusiness {
 		float: left;
+		margin-left: 1em;
+		margin-right: 1em; 
 	}
 
 	.enterprise {
@@ -167,13 +170,31 @@ footer a {
 	}
 
 	.start {
-		float: left;
+		clear: left;
+		width: 50%;
 	}
 
 	.pay {
 		float: left; 
+		width: 50%;
+	}
+
+	.support {
+		clear: left;
+		width: 50%;
+	}
+
+	.cancel {
+		float: left;
+		width: 50%; 
 	}
 
 }
-*/
+
+//Fourth breakpoint 
+/*@media(min-width: 767px) {
+
+}*/
+
+
 

@@ -10,7 +10,7 @@ nav {
     margin: 1em 1em 1em 1em; }
 
 .treepicture {
-  background-image: url("../images/Tree_Background.jpg");
+  background-image: url("../images/background.jpg");
   padding: 2em; }
   .treepicture h2 {
     color: white;
@@ -95,34 +95,38 @@ footer a {
 @media (min-width: 479px) {
   .treepicture {
     padding: 4em; } }
+@media (min-width: 767px) {
+  .plans {
+    margin: 0 auto; }
+
+  .personal {
+    float: left; }
+
+  .smallbusiness {
+    float: left;
+    margin-left: 1em;
+    margin-right: 1em; }
+
+  .enterprise {
+    float: left; }
+
+  .start {
+    clear: left;
+    width: 50%; }
+
+  .pay {
+    float: left;
+    width: 50%; }
+
+  .support {
+    clear: left;
+    width: 50%; }
+
+  .cancel {
+    float: left;
+    width: 50%; } }
 /*@media(min-width: 767px) {
 
-	.plans {
-		margin: 0 auto;  
-	}
-
-	.personal {
-		float: left;
-	}
-
-
-	.smallbusiness {
-		float: left;
-	}
-
-	.enterprise {
-		float: left;  
-	}
-
-	.start {
-		float: left;
-	}
-
-	.pay {
-		float: left; 
-	}
-
-}
-*/
+}*/
 
 /*# sourceMappingURL=main.css.map */
