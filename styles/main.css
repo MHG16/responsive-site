@@ -100,18 +100,22 @@ footer a {
     margin: 0 auto; }
 
   .personal {
-    float: left; }
+    float: left;
+    width: 32%; }
 
   .smallbusiness {
     float: left;
+    width: 32%;
     margin-left: 1em;
     margin-right: 1em; }
 
   .enterprise {
-    float: left; }
+    float: left;
+    width: 32%; }
 
   .start {
     clear: left;
+    float: left;
     width: 50%; }
 
   .pay {
@@ -120,12 +124,18 @@ footer a {
 
   .support {
     clear: left;
+    float: left;
     width: 50%; }
 
   .cancel {
     float: left;
-    width: 50%; } }
-/*@media(min-width: 767px) {
+    width: 50%; }
+
+  footer {
+    clear: left;
+    float: left;
+    width: 100%; } }
+/*@media(min-width: 979px) {
 
 }*/
 

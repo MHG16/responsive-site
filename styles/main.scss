@@ -156,43 +156,54 @@ footer a {
 
 	.personal {
 		float: left;
+		width: 32%;
 	}
 
 
 	.smallbusiness {
-		float: left;
+		float:left;
+		width: 32%;
 		margin-left: 1em;
 		margin-right: 1em; 
 	}
 
 	.enterprise {
-		float: left;  
+		float:left;
+		width: 32%;
 	}
 
 	.start {
-		clear: left;
-		width: 50%;
+		clear:left;
+		float:left;  
+	    width: 50%;
 	}
 
 	.pay {
-		float: left; 
-		width: 50%;
+		float:left; 
+	    width: 50%;
 	}
 
 	.support {
-		clear: left;
-		width: 50%;
+		clear:left;
+		float:left;
+		width: 50%; 
 	}
 
 	.cancel {
-		float: left;
-		width: 50%; 
+		float:left;
+		width: 50%;
+	}
+
+	footer {
+		clear:left;
+		float:left;
+		width: 100%
 	}
 
 }
 
 //Fourth breakpoint 
-/*@media(min-width: 767px) {
+/*@media(min-width: 979px) {
 
 }*/
 
