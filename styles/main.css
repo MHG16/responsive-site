@@ -92,4 +92,37 @@ footer p {
 footer a {
   color: white; }
 
+@media (min-width: 479px) {
+  .treepicture {
+    padding: 4em; } }
+/*@media(min-width: 767px) {
+
+	.plans {
+		margin: 0 auto;  
+	}
+
+	.personal {
+		float: left;
+	}
+
+
+	.smallbusiness {
+		float: left;
+	}
+
+	.enterprise {
+		float: left;  
+	}
+
+	.start {
+		float: left;
+	}
+
+	.pay {
+		float: left; 
+	}
+
+}
+*/
+
 /*# sourceMappingURL=main.css.map */
