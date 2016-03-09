@@ -86,13 +86,15 @@ nav {
 		border-left: 1px solid #EAEAEA;   
 		margin: 0 auto;
 		margin-bottom: 1.5em;
+		padding: 1em 0em 1em 0em;
 
 	   p {
 		color: #343434;
 		background-color: #FFFFFF;
 		font-size: 1em;
+		width: 7em;  
 		border-style: 1px solid #EAEAEA;
-		border-radius: 0.5em; 
+		border-radius: 1.5em; 
 		margin: 0 auto;
 		padding: 1em 0em 1em 0em;
 		}
@@ -167,7 +169,24 @@ footer a {
 //Third breakpoint
 @media(min-width: 767px) {
 
-	.plans {
+	section.plans {
+		overflow: hidden;
+		> div {
+			float: left;
+			width: 33.333%;
+			box-sizing: border-box;
+			border-left: 0.5em solid #FFFFFF;
+			border-right: 0.5em solid #FFFFFF
+			margin-bottom: 0.5em;
+		}
+	}
+}
+
+
+
+
+
+	/*.plans {
 		margin: 0 auto;  
 	}
 
@@ -218,7 +237,7 @@ footer a {
 	}
 
 }
-
+*/
 //Fourth breakpoint 
 @media(min-width: 979px) {
 	body {
