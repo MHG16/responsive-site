@@ -13,6 +13,7 @@ nav {
 	color:#697075;
 	text-decoration: none;
 	margin: 1em 1em 1em 1em;
+	font-size: 1.25em; 
 	}
 
 	.pricing {
@@ -136,7 +137,7 @@ nav {
 	h1 {
 		font-size: 1.5em;
 		text-align: center;
-		margin-top: 1em;  
+		margin-top: 3em;  
 		letter-spacing: 0.25em; 
 	}
 
@@ -150,13 +151,17 @@ nav {
 }
 
 footer {
-	margin-top: 1em; 
+	margin-top: 1em;
 	background-color: black;
+	padding-top: 1em;  
+	padding-bottom: 1em; 
+
 }	
 
 footer p {
 	color: #7D7D7D;
 	text-align: center;
+	font-size: 1.25em; 
 }
 
 footer a {
@@ -166,7 +171,7 @@ footer a {
 //Second breakpoint
 @media(min-width: 479px ) {
 	.treepicture {
-		padding: 4em;  
+		padding: 4em, 2em, 4em, 2em;    
 	}
 
 }

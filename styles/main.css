@@ -8,7 +8,8 @@ nav {
   nav a {
     color: #697075;
     text-decoration: none;
-    margin: 1em 1em 1em 1em; }
+    margin: 1em 1em 1em 1em;
+    font-size: 1.25em; }
   nav .pricing {
     color: #484848; }
 
@@ -89,7 +90,7 @@ nav {
   .information h1 {
     font-size: 1.5em;
     text-align: center;
-    margin-top: 1em;
+    margin-top: 3em;
     letter-spacing: 0.25em; }
   .information p {
     color: #526167;
@@ -98,18 +99,21 @@ nav {
 
 footer {
   margin-top: 1em;
-  background-color: black; }
+  background-color: black;
+  padding-top: 1em;
+  padding-bottom: 1em; }
 
 footer p {
   color: #7D7D7D;
-  text-align: center; }
+  text-align: center;
+  font-size: 1.25em; }
 
 footer a {
   color: white; }
 
 @media (min-width: 479px) {
   .treepicture {
-    padding: 4em; } }
+    padding: 4em, 2em, 4em, 2em; } }
 @media (min-width: 767px) {
   section.plans {
     overflow: hidden; }
