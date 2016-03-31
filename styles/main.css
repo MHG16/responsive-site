@@ -125,6 +125,16 @@ footer a {
       box-sizing: border-box;
       border-left: 0.5em solid #FFFFFF;
       border-right: 0.5em solid #FFFFFF;
+      margin-bottom: 0.5em; }
+
+  .information {
+    overflow: hidden; }
+    .information > div {
+      float: left;
+      width: 50%;
+      box-sizing: border-box;
+      border-left: 0.5em solid #FFFFFF;
+      border-right: 0.5em solid #FFFFFF;
       margin-bottom: 0.5em; } }
 @media (min-width: 979px) {
   .plans, .information {
