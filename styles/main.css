@@ -14,14 +14,16 @@ nav {
 
 .treepicture {
   background-image: url("../images/background.jpg");
-  padding: 2em, 0, 2em, 0; }
+  padding-top: 3em;
+  padding-bottom: 3em; }
   .treepicture h2 {
     color: white;
     font-size: 2.5em;
     text-align: center;
-    margin-bottom: 0.5em; }
+    margin-bottom: 0;
+    margin-top: 0; }
     .treepicture h2 .try {
-      margin-top: 0.5em; }
+      margin-top: 0; }
 
 .banner {
   margin-bottom: 2em; }
