@@ -1,5 +1,4 @@
 body {
-  padding: 1em 1em 1em 1em;
   font-family: Helvetica, sans-serif; }
 
 nav {
@@ -15,7 +14,7 @@ nav {
 
 .treepicture {
   background-image: url("../images/background.jpg");
-  padding: 2em; }
+  padding: 2em, 0, 2em, 0; }
   .treepicture h2 {
     color: white;
     font-size: 2.5em;
@@ -177,7 +176,7 @@ footer a {
 }
 */
 @media (min-width: 979px) {
-  body {
+  .plans, .information {
     max-width: 980px;
     padding: 1em 1em 1em 1em;
     margin: 0 auto; } }

@@ -1,5 +1,4 @@
 body {
-	padding: 1em 1em 1em 1em;
 	font-family: Helvetica, sans-serif;
 }
 
@@ -25,7 +24,7 @@ nav {
 
 .treepicture {
 	background-image: url("../images/background.jpg");
-	padding: 2em; 
+	padding: 2em, 0, 2em, 0;  
 
 	h2 {
 		color: white;
@@ -169,7 +168,7 @@ footer a {
 }
 
 //Second breakpoint
-@media(min-width: 479px ) {
+@media(min-width: 479px) {
 	.treepicture {
 		padding: 4em, 2em, 4em, 2em;    
 	}
@@ -250,7 +249,7 @@ footer a {
 */
 //Fourth breakpoint 
 @media(min-width: 979px) {
-	body {
+	.plans, .information {
 	max-width: 980px;  
 	padding: 1em 1em 1em 1em;  
 	margin: 0 auto;      
