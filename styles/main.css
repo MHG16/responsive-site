@@ -117,67 +117,15 @@ footer a {
     padding-top: 6em;
     padding-bottom: 6em; } }
 @media (min-width: 767px) {
-  section.plans {
+  .plans {
     overflow: hidden; }
-    section.plans > div {
+    .plans > section {
       float: left;
       width: 33.333%;
       box-sizing: border-box;
       border-left: 0.5em solid #FFFFFF;
       border-right: 0.5em solid #FFFFFF;
       margin-bottom: 0.5em; } }
-	/*.plans {
-		margin: 0 auto;  
-	}
-
-	.personal {
-		float: left;
-		width: 32%;
-	}
-
-
-	.smallbusiness {
-		float:left;
-		width: 32%;
-		margin-left: 1em;
-		margin-right: 1em; 
-	}
-
-	.enterprise {
-		float:left;
-		width: 32%;
-	}
-
-	.start {
-		clear:left;
-		float:left;  
-	    width: 50%;
-	}
-
-	.pay {
-		float:left; 
-	    width: 50%;
-	}
-
-	.support {
-		clear:left;
-		float:left;
-		width: 50%; 
-	}
-
-	.cancel {
-		float:left;
-		width: 50%;
-	}
-
-	footer {
-		clear:left;
-		float:left;
-		width: 100%
-	}
-
-}
-*/
 @media (min-width: 979px) {
   .plans, .information {
     max-width: 980px;
