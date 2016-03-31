@@ -114,7 +114,8 @@ footer a {
 
 @media (min-width: 479px) {
   .treepicture {
-    padding: 4em, 2em, 4em, 2em; } }
+    padding-top: 6em;
+    padding-bottom: 6em; } }
 @media (min-width: 767px) {
   section.plans {
     overflow: hidden; }
